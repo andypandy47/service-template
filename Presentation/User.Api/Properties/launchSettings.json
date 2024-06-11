@@ -1,0 +1,34 @@
+﻿{
+  "$schema": "http://json.schemastore.org/launchsettings.json",
+  "iisSettings": {
+    "windowsAuthentication": false,
+    "anonymousAuthentication": true,
+    "iisExpress": {
+      "applicationUrl": "http://localhost:10492",
+      "sslPort": 44397
+    }
+  },
+  "profiles": {
+    "User.Api": {
+      "commandName": "Project",
+      "dotnetRunMessages": true,
+      "launchBrowser": false,
+      "launchUrl": "swagger",
+      "applicationUrl": "http://localhost:5108",
+      "environmentVariables": {
+        "ASPNETCORE_ENVIRONMENT": "Development",
+        "ASPNETCORE_ForwardedHeaders_Enabled": "true",
+        "TAPPIT_RabbitMqConfig__Host": "localhost",
+        "TAPPIT_RabbitMqConfig__VirtualHost": "/",
+        "TAPPIT_RabbitMqConfig__Username": "guest",
+        "TAPPIT_RabbitMqConfig__Password": "guest",
+        "TAPPIT_RabbitMqConfig__SslActive": "false",
+        "TAPPIT_DatabaseConfig__ConnectionString": "User ID=postgres;Password=admin;Host=localhost;Port=5432;Database=postgres;Pooling=true;MinPoolSize=10;MaxPoolSize=50;",
+        "TAPPIT_RedisConfig__SslActive": "false",
+        "TAPPIT_RedisConfig__Host": "localhost",
+        "TAPPIT_RedisConfig__Port": "6379",
+        "TAPPIT_RedisConfig__Password": "password"
+      }
+    }
+  }
+}
