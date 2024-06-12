@@ -1,6 +1,6 @@
-﻿using Shared.Domain.Result;
+﻿using Shared.Kernel.Result;
 using User.Application.Contracts.DTOs;
-using User.Domain.Core.Entities;
+using User.Domain.Entities;
 
 namespace User.Application.Contracts.Interfaces;
 

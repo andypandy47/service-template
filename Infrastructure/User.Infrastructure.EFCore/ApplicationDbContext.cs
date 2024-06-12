@@ -1,6 +1,6 @@
 ﻿using System.Reflection;
 using Microsoft.EntityFrameworkCore;
-using User.Domain.Core.Entities;
+using User.Domain.Entities;
 
 namespace User.Infrastructure.EFCore;
 

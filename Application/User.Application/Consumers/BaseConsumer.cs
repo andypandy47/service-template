@@ -1,6 +1,6 @@
 ﻿using MassTransit;
 using Microsoft.Extensions.Logging;
-using Shared.Domain.Result;
+using Shared.Kernel.Result;
 
 namespace User.Application.Consumers;
 

@@ -1,7 +1,7 @@
 ﻿using System.Net;
 using Microsoft.AspNetCore.Mvc;
-using Shared.Domain.Result;
-using IResult = Shared.Domain.Result.IResult;
+using Shared.Kernel.Result;
+using IResult = Shared.Kernel.Result.IResult;
 
 namespace User.Api.Extensions;
 

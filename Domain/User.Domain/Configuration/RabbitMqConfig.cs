@@ -1,6 +1,6 @@
 ﻿using System.ComponentModel.DataAnnotations;
 
-namespace User.Domain.Core.Configuration;
+namespace User.Domain.Configuration;
 
 public class RabbitMqConfig
 {

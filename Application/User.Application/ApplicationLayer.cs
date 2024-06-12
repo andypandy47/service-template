@@ -5,8 +5,8 @@ using MassTransit;
 using Microsoft.Extensions.Configuration;
 using Microsoft.Extensions.DependencyInjection;
 using Microsoft.Extensions.Options;
-using User.Domain.Core;
-using User.Domain.Core.Configuration;
+using User.Domain;
+using User.Domain.Configuration;
 
 namespace User.Application;
 
@@ -18,11 +18,6 @@ public class ApplicationLayer(IConfiguration configuration) : AssemblyScanModule
         var rabbitMqConfiguration = configuration.GetSection("RabbitMqConfig").Get<RabbitMqConfig>() ?? throw new InvalidOperationException("RabbitMq config is null");
         builder.Register(x => Options.Create(rabbitMqConfiguration))
             .As<IOptions<RabbitMqConfig>>()
-            .SingleInstance();
-        
-        var redisConfiguration = configuration.GetSection("RedisConfig").Get<RedisConfig>() ?? throw new InvalidOperationException("Redis config is null");
-        builder.Register(x => Options.Create(redisConfiguration))
-            .As<IOptions<RedisConfig>>()
             .SingleInstance();
         
         var services = new ServiceCollection();

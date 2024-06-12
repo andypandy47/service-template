@@ -1,6 +1,6 @@
 ﻿using Microsoft.EntityFrameworkCore.Storage;
-using User.Domain.Core.Entities;
-using User.Domain.Core.Repositories;
+using User.Domain.Entities;
+using User.Domain.Repositories;
 
 namespace User.Infrastructure.EFCore.Repositories;
 

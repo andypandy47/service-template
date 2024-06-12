@@ -1,6 +1,6 @@
-using User.Domain.Contract.Requests;
 using Microsoft.AspNetCore.Mvc;
 using User.Api.Extensions;
+using User.Api.Models.Requests;
 using User.Application.Contracts.Interfaces;
 
 namespace User.Api.Controllers;

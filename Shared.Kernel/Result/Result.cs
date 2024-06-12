@@ -1,4 +1,4 @@
-﻿namespace Shared.Domain.Result;
+﻿namespace Shared.Kernel.Result;
 
 public record Result : IResult
 {

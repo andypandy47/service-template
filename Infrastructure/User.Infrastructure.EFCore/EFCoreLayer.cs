@@ -1,10 +1,10 @@
 ﻿using System.Reflection;
 using Autofac;
-using User.Domain.Core;
+using User.Domain;
 using Microsoft.EntityFrameworkCore;
 using Microsoft.Extensions.Configuration;
 using Microsoft.Extensions.Options;
-using User.Domain.Core.Configuration;
+using User.Domain.Configuration;
 
 namespace User.Infrastructure.EFCore;
 

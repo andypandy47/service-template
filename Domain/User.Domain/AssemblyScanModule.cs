@@ -2,7 +2,7 @@
 using Autofac;
 using Microsoft.Extensions.Configuration;
 
-namespace User.Domain.Core;
+namespace User.Domain;
 
 public abstract class AssemblyScanModule(IConfiguration configuration) : Autofac.Module
 {

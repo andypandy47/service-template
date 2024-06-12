@@ -1,4 +1,4 @@
-﻿namespace Shared.Domain.Commands;
+﻿namespace Shared.Kernel.Commands;
 
 public interface IGetUser
 {

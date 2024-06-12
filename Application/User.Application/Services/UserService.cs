@@ -1,9 +1,9 @@
 ﻿using Microsoft.EntityFrameworkCore;
-using Shared.Domain.Result;
+using Shared.Kernel.Result;
 using User.Application.Contracts.DTOs;
 using User.Application.Contracts.Interfaces;
-using User.Domain.Core.Entities;
-using User.Domain.Core.Repositories;
+using User.Domain.Entities;
+using User.Domain.Repositories;
 
 namespace User.Application.Services;
 

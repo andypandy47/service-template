@@ -1,4 +1,4 @@
-﻿using Shared.Domain.Result;
+﻿using Shared.Kernel.Result;
 
 namespace User.Application;
 

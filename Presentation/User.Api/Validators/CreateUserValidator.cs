@@ -1,5 +1,5 @@
-﻿using User.Domain.Contract.Requests;
-using FluentValidation;
+﻿using FluentValidation;
+using User.Api.Models.Requests;
 
 namespace User.Api.Validators;
 

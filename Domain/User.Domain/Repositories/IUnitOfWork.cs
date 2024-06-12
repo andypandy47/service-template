@@ -1,6 +1,6 @@
-﻿using User.Domain.Core.Entities;
+﻿using User.Domain.Entities;
 
-namespace User.Domain.Core.Repositories;
+namespace User.Domain.Repositories;
 
 public interface IUnitOfWork
 {

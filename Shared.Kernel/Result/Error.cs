@@ -1,10 +1,10 @@
 ﻿using System.Net;
 
-namespace Shared.Domain.Result;
+namespace Shared.Kernel.Result;
 
 public record Error(string Code, string Description, ErrorType Type = ErrorType.None)
 {
-    public static implicit operator Domain.Result.Result(Error error) => Domain.Result.Result.Failure(error);
+    public static implicit operator Result(Error error) => Result.Failure(error);
      
     public static readonly Error None = new(string.Empty, string.Empty);
     public static Error NullValue(string propertyName) => new("Error.NullValue", $"Property '{propertyName}' null value was provided", ErrorType.Failure);

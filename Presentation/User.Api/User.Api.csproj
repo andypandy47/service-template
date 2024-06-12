@@ -33,6 +33,7 @@
     <ItemGroup>
       <ProjectReference Include="..\..\Application\User.Application\User.Application.csproj" />
       <ProjectReference Include="..\..\Infrastructure\User.Infrastructure.EFCore\User.Infrastructure.EFCore.csproj" />
+      <ProjectReference Include="..\..\Shared.Kernel\Shared.Kernel.csproj" />
     </ItemGroup>
 
 </Project>
